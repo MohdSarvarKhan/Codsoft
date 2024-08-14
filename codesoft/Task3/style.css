@@ -1,0 +1,108 @@
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Body and Container Styles */
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: url('New pic1.jpeg') no-repeat center center fixed;
+  background-size: cover;
+  font-family: 'Arial', sans-serif;
+}
+
+h1 {
+  text-align: center;
+  color: #42474b;
+  font-size: 50px;
+  padding: 35px;
+  font-family: 'Arial', sans-serif;
+}
+
+hr {
+  height: 2px;
+  background-color: aqua;
+  border: none;
+  margin: 20px 0;
+}
+
+.container {
+  width: 425px;
+  height: 600px;
+  border: 2px solid black;
+  border-radius: 10px;
+  background: linear-gradient(to right, #434343, #000000);
+  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.5);
+  padding: 20px;
+}
+
+/* Input Area Styles */
+.inputArea {
+  background-color: #5b6d7c;
+  border-radius: 8px;
+  margin-bottom: 20px;
+}
+
+input[type="text"] {
+  width: 100%;
+  padding: 20px;
+  font-size: 30px;
+  background-color: #dae0e5;
+  text-align: right;
+  border: none;
+  border-radius: 8px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+input[type="text"]:disabled {
+  color: #000;
+}
+
+/* Button Styles */
+.buttons {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 10px;
+}
+
+.btn {
+  background-color: #13171d;
+  color: white;
+  font-size: 2.5em;
+  border: none;
+  border-radius: 8px;
+  padding: 20px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+  background-color: #8c8c8c;
+}
+
+.btnC {
+  background-color: #25292c;
+  color: #ff7a00;
+}
+
+.btnEq {
+  background-color: #25292c;
+  color: #00ff7f;
+}
+
+.btnC:hover, .btnEq:hover {
+  background-color: #333;
+}
+
+/* Utility Styles */
+.wrapper {
+  display: grid;
+  grid-template-rows: auto 1fr;
+  height: 100%;
+}
+
